@@ -8,6 +8,10 @@ Just unzip all the files to `/usr/raumfeld/`. To install the crontab, just type:
 
     sudo /usr/raumfeld/install.sh
 
+Or run this code (one line) to automatically download and install everything you need:
+
+    sudo mkdir /usr/raumfeld && sudo wget -O /usr/raumfeld/raumfeld.zip https://github.com/blaues0cke/RaumfeldAlarm/archive/master.zip && sudo unzip /usr/raumfeld/raumfeld.zip -d /usr/raumfeld && sudo cp -rf /usr/raumfeld/RaumfeldAlarm-master/* /usr/raumfeld && sudo rm -rf /usr/raumfeld/RaumfeldAlarm-master && sudo rm /usr/raumfeld/raumfeld.zip && sudo sh /usr/raumfeld/install.sh
+
 ### Config
 
 Please modify the `/usr/raumfeld/config.cfg` by entering the ip address of your host device.
