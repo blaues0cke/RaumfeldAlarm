@@ -6,7 +6,7 @@ This is just a small script to make a raspberry pi or any other linux based syst
 
 Just unzip all the files to `/usr/raumfeld/`. To install the crontab, just type:
 
-    sudo /usr/raumfeld/install.sh
+    sudo sh /usr/raumfeld/install.sh
 
 Or run this code (one line) to automatically download and install everything you need:
 
