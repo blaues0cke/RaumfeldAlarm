@@ -29,6 +29,8 @@ sleep 40
 
 # Thanks to
 # => http://stackoverflow.com/questions/169511/how-do-i-iterate-over-a-range-of-numbers-defined-by-variables-in-bash
+# 
+# Will increase the volume every 12 seconds by 1%, so the volume will be by 50% after 10 minutes
 for i in $(seq 1 50);
 do
 	echo "Increasing volume by 1, volume should now be ${i}"

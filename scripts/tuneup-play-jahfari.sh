@@ -8,7 +8,7 @@
 #
 # Will start playing jahfari on all rooms
 
-. config.cfg
+. /usr/raumfeld/config.cfg
 
 curl -i -s -k  -X 'POST' \
     -H 'Content-Type: text/xml; charset="utf-8"' -H 'SOAPAction: "urn:schemas-upnp-org:service:AVTransport:1#SetAVTransportURI"' \
