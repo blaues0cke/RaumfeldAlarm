@@ -1,3 +1,4 @@
+#!/bin/bash
 # 
 # This file is part of RaumfeldAlarm.
 # Learn more at: https://github.com/blaues0cke/RaumfeldAlarm

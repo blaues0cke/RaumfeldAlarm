@@ -1,3 +1,4 @@
+#!/bin/bash
 # 
 # This file is part of RaumfeldAlarm.
 # Learn more at: https://github.com/blaues0cke/RaumfeldAlarm
@@ -8,7 +9,7 @@
 #
 # Will pause the music in all rooms
 
-. config.cfg
+. /usr/raumfeld/config.cfg
 
 curl -i -s -k  -X 'POST' \
     -H 'Content-Type: text/xml; charset="utf-8"' -H 'SOAPAction: "urn:schemas-upnp-org:service:AVTransport:1#Pause"' \
