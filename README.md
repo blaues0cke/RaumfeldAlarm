@@ -1,7 +1,5 @@
 # Raumfeld alarm clock
 
--
-
 This is just a small script to make a raspberry pi or any other linux based system wake you up with some music. I am kinda lazy, so this script can only play reggae by default, you have to modify it on your own to play your own music.
 
 ### Installation
