@@ -10,6 +10,9 @@ Just unzip all the files to `/usr/raumfeld/`. To install the crontab, just type:
 
     sudo /usr/raumfeld/install.sh
 
+### Config
+
+Please modify the `/usr/raumfeld/config.cfg` by entering the ip address of your host device.
 
 ### Alarms
 
