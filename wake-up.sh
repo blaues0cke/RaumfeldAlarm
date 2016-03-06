@@ -24,25 +24,16 @@ sleep 1
 
 sh ./scripts/tuneup-play-jahfari.sh
 
+# Sleep until advertising is over
+sleep 40
+
+# Thanks to
+# => http://stackoverflow.com/questions/169511/how-do-i-iterate-over-a-range-of-numbers-defined-by-variables-in-bash
 for i in $(seq 1 50);
 do
-	echo "Increasing volume by 1 ${i}"
+	echo "Increasing volume by 1, volume should now be ${i}"
 
 	sh ./scripts/change-volume-by.sh 1
 
-	sleep 1
+	sleep 12
 done
-
-
-
-
-
-
-
-
-
-
-
-
-
-
