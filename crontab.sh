@@ -8,9 +8,9 @@
 #
 
 # Every weekday (07:20)
-20  7 * * 1-5  sh /usr/raumfeld/wake-up.sh
-20  9 * * 1-5  sh /usr/raumfeld/scripts/stop-music.sh
+20  7 * * 1-5 root sh /usr/raumfeld/wake-up.sh
+20  9 * * 1-5 root sh /usr/raumfeld/scripts/stop-music.sh
 
 # Weekend (09:20)
-20  9 * * 6-7  sh /usr/raumfeld/wake-up.sh
-20 11 * * 6-7  sh /usr/raumfeld/scripts/stop-music.sh
+20  9 * * 6-7 root sh /usr/raumfeld/wake-up.sh
+20 11 * * 6-7 root sh /usr/raumfeld/scripts/stop-music.sh
