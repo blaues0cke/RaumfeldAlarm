@@ -23,7 +23,7 @@ bash /usr/raumfeld/scripts/change-room-volume-to.sh uuid:a4bf67ba-1d5e-4c93-a9f2
 
 sleep 1
 
-bash /usr/raumfeld/scripts/tuneup-play-jahfari.sh
+bash /usr/raumfeld/scripts/tuneup-play-jahfari-create-room.sh
 
 # Sleep until advertising is over
 sleep 40
