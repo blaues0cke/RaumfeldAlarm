@@ -9,9 +9,12 @@
 #
 # Will pause the music in all rooms
 
-. /usr/raumfeld/config.cfg
+. ./config.cfg
 
-curl -i -s -k  -X 'POST' \
+curl -i -k  -X 'POST' \
     -H 'Content-Type: text/xml; charset="utf-8"' -H 'SOAPAction: "urn:schemas-upnp-org:service:AVTransport:1#Pause"' \
     --data-binary $'<?xml version=\"1.0\"?><s:Envelope xmlns:s=\"http://schemas.xmlsoap.org/soap/envelope/\" s:encodingStyle=\"http://schemas.xmlsoap.org/soap/encoding/\"><s:Body><u:Pause xmlns:u=\"urn:schemas-upnp-org:service:AVTransport:1\"><InstanceID>0</InstanceID></u:Pause></s:Body></s:Envelope>' \
     'http://'$raumfeld_base_url'/TransportService/Control'
+
+
+echo "Done"

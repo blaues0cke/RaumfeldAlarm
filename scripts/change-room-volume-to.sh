@@ -9,7 +9,7 @@
 #
 # Will increase the volume of a rooms ($1) by $2
 
-. /usr/raumfeld/config.cfg
+. ./config.cfg
 
 curl -i -s -k  -X 'POST' \
     -H 'Content-Type: text/xml; charset="utf-8"' -H 'SOAPAction: "urn:schemas-upnp-org:service:RenderingControl:1#SetRoomVolume"' \
