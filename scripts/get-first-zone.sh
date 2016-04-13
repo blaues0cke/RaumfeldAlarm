@@ -1,3 +1,4 @@
+#!/bin/bash
 # 
 # This file is part of RaumfeldAlarm.
 # Learn more at: https://github.com/blaues0cke/RaumfeldAlarm
@@ -6,6 +7,6 @@
 # License: This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 #          To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 #
+# Will return the first zone id found
 
-raumfeld_base_url="192.168.0.10:51789"
-raumfeld_base_url_2="192.168.0.10:47365"
+echo $(sh ./scripts/get-all-zones.sh | head -n 1)
